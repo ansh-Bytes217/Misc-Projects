@@ -1,4 +1,6 @@
 Expense Tracker
+
+
 Welcome to the Expense Tracker application! 🎉
 This simple web app lets you keep track of your expenses,
 helping you to manage your finances better. You can add, view, and categorize your expenses in just a few clicks.
