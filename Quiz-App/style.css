@@ -1,0 +1,94 @@
+/* Global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  flex-direction: column;
+}
+
+/* Container for quiz */
+#quiz-container {
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Hide elements by default */
+.hidden {
+  display: none;
+}
+
+/* Styling for question text */
+#question-text {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+/* Styling for answer buttons */
+#answer-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.answer-btn {
+  padding: 12px;
+  font-size: 18px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.answer-btn:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+/* Styling for score container */
+#score-container {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#retry-btn {
+  margin-top: 20px;
+  padding: 12px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+#retry-btn:hover {
+  background-color: #e53935;
+}
+
+/* Styling for general layout */
+h2 {
+  margin-bottom: 10px;
+}
+
+button:focus {
+  outline: none;
+}
