@@ -1,10 +1,13 @@
 🧰 #Miscellaneous Projects
+
 A curated collection of small yet practical frontend web applications built using HTML, CSS, and JavaScript. These projects serve as learning experiments and fun utilities demonstrating DOM manipulation, time handling, and event-driven logic.
 
 📘 About
+
 This repository showcases four beginner-to-intermediate level JavaScript projects, each designed to reinforce core frontend concepts such as dynamic rendering, user interaction, local storage, time-based updates, and conditional logic. These projects were built to enhance JavaScript fluency and offer hands-on practice for real-world use cases.
 
 🚀 Projects Overview
+
 🎲 Dice Roller
 A simple application that simulates the rolling of dice. On button click, two dice roll and update with random values from 1 to 6.
 
@@ -54,7 +57,7 @@ Clone the repository:
 bash
 Copy
 Edit
-git clone https://github.com/your-username/misc-projects.git
+git clone https://github.com/ansh-bytes217/Misc-Projects.git
 cd misc-projects
 Open any project folder and launch index.html in your browser.
 
